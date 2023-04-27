@@ -1,0 +1,103 @@
+.search-bar-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px 0;
+}
+
+.search-input {
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+width: 50%;
+margin-right: 10px;
+}
+
+.search-button {
+background-color: #ff5722;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.search-button:hover {
+background-color: #ff5722;
+}
+
+.name-input{
+padding: 7px;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+width: 100%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.multiselect-container {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 21.5%;
+}
+
+.multiselect-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.multiselect-input:focus {
+    outline: none;
+    border-color: #ff5722;
+}
+
+
+.submit-button {
+background-color:  #ff5722;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 25px;
+}
+  
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  .header-title {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .header-subtitle {
+    font-size: 20px;
+    margin: 0;
+  }
+  
